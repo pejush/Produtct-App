@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright"
     tools:context=".ui.splash.SplashActivity">
+
     <ImageView
         android:id="@+id/imageView35"
-        android:layout_width="174dp"
-        android:layout_height="115dp"
+        android:layout_width="276dp"
+        android:layout_height="255dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,16 +36,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView35"
         app:layout_constraintVertical_bias="0.164" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Amitabh Ray"
-        android:textColor="@android:color/white"
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
